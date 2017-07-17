@@ -1,0 +1,158 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*{
+	box-sizing: border-box;
+}
+/* General */
+.container{
+	position: relative;
+  max-width: 1440px;
+  height: 1000px;
+  margin: 0 auto;
+  background: #fff url("../images/background.jpg")  no-repeat center;
+  background-position: 0 -644px;
+
+}
+/* Nav */
+nav{
+	text-align: center;
+}
+ul{
+	display: inline-block;
+	list-style: none;
+	margin-top: 25px;
+	padding: 0;
+	border-radius: 5px;
+	background: linear-gradient(#808080, #666, #808080);
+	}
+
+li{
+	display: inline-block;
+
+
+
+	padding: auto;
+	border-right: 1px solid #666;
+
+}
+li:last-child{
+	border-right: none;
+}
+a{
+	cursor: pointer;
+	width: 110px;
+	height: 40px;
+	padding: 10px 0;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+  font-family: "Myriad Set Pro", sans-serif;
+	color: white;
+}
+a img{
+	vertical-align: middle;
+	height: 20px;
+}
+
+.main1{
+	position: absolute;
+	width:  720px;
+	height: 200px;
+	top: 250px;
+	left: 360px;
+	text-align: center;
+}
+h1{
+	color: white;
+	font-size: 35px;
+	font-family: sans-serif;
+}
+h2{
+	border-top: 30px;
+	color: white;
+	font-size: 30px;
+	font-family: sans-serif;
+}
+h3{
+	border-top: 30px;
+	color: white;
+	font-size: 25px;
+	font-family: sans-serif;
+}
+
+
+.sub1{
+	position: absolute;
+	width:  360px;
+	height: 200px;
+	top: 675px;
+	left: 0;
+}
+.sub2{
+	position: absolute;
+	width:  360px;
+	height: 200px;
+	top: 675px;
+	left: 360px;
+}
+.sub3{
+	position: absolute;
+	width:  360px;
+	height: 200px;
+	top: 675px;
+	left: 720px;
+}
+.sub4{
+	position: absolute;
+	width:  360px;
+	height: 200px;
+	top: 675px;
+	left: 1080px;
+}
