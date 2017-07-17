@@ -156,3 +156,14 @@ h3{
 	top: 675px;
 	left: 1080px;
 }
+
+
+p{
+	position: absolute;
+	width: 1080px;
+	top:900px;
+	color: grey;
+	left:250px;
+	font-size: 11px;
+	font-family: sans-serif;
+}
